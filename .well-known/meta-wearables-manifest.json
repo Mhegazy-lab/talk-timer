@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "name": "Talk Timer",
+  "description": "Talk timer with phase colors and overtime tracking.",
+  "appearance": {
+    "theme_color": "#E879F9",
+    "icon": {
+      "src": "../icon-mono.png",
+      "type": "monochrome"
+    },
+    "icon_background": {
+      "colors": [
+        "#E879F9",
+        "#A347B8",
+        "#6B2A75",
+        "#220A28"
+      ],
+      "stops": [
+        0.0,
+        0.33,
+        0.66,
+        1.0
+      ],
+      "inner_glow_color": "#F5D0FE"
+    }
+  }
+}
